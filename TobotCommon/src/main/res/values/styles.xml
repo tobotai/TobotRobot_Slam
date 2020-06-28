@@ -1,0 +1,80 @@
+<resources>
+
+    <style name="task_execute_select">
+        <item name="android:textSize">@dimen/tv_task_execute_select</item>
+        <item name="android:textColor">@color/tv_task_execute_select</item>
+    </style>
+
+    <style name="item_tv_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginLeft">@dimen/option_view_margin_left</item>
+        <item name="android:textColor">@color/option_tv_color</item>
+        <item name="android:textSize">@dimen/option_tv_main_size</item>
+    </style>
+
+    <style name="item_introduce_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/option_view_margin_left</item>
+        <item name="android:layout_marginRight">@dimen/option_introduce_margin_right</item>
+        <item name="android:layout_marginTop">@dimen/option_introduce_margin_top</item>
+        <item name="android:textColor">@color/option_tv_color</item>
+        <item name="android:textSize">@dimen/option_tv_introduce_size</item>
+    </style>
+
+    <style name="item_right_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/option_tv_color</item>
+        <item name="android:textSize">@dimen/option_tv_second_size</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginRight">@dimen/option_view_margin_right</item>
+    </style>
+
+    <style name="item_right_img">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginRight">@dimen/option_view_margin_right</item>
+        <item name="android:src">@drawable/ic_right_arrow</item>
+    </style>
+
+    <style name="option_view_line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/option_line_height</item>
+        <item name="android:layout_marginLeft">@dimen/option_view_margin_left</item>
+        <item name="android:layout_marginRight">@dimen/option_view_margin_right</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:background">@color/line_color</item>
+    </style>
+
+    <style name="whole_view_line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/option_line_height</item>
+        <item name="android:layout_marginLeft">@dimen/main_view_margin</item>
+        <item name="android:layout_marginRight">@dimen/main_view_margin</item>
+        <item name="android:background">@color/line_color</item>
+    </style>
+
+    <style name="tab_tv_select">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/tab_tv_select_size</item>
+    </style>
+
+    <style name="tab_tv_normal">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/tab_tv_normal_size</item>
+    </style>
+
+    <style name="btn_dialog" parent="@style/Widget.AppCompat.Button.Borderless">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textSize">@dimen/dialog_btn_tv_size</item>
+        <item name="android:textColor">@color/dialog_btn_tv</item>
+        <item name="android:gravity">center</item>
+    </style>
+</resources>

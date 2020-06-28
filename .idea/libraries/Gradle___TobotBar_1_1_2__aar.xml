@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: :TobotBar-1.1.2:@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/918cbe1ac29314b1554b6043264d6d63/TobotBar-1.1.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/918cbe1ac29314b1554b6043264d6d63/TobotBar-1.1.2/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

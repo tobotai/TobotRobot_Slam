@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tv_robot_name">60sp</dimen>
+    <dimen name="tv_item_option">35sp</dimen>
+</resources>

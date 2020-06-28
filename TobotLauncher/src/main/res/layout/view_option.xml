@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/main_view_margin"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:id="@+id/rl_item_free_running"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/selector_item_free_running">
+
+        <TextView
+            style="@style/tv_item_option"
+            android:drawableTop="@drawable/ic_item_free_running"
+            android:text="@string/tv_item_free_running" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_item_robot_deploy"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/main_view_margin"
+        android:layout_weight="1"
+        android:background="@drawable/selector_item_robot_deploy">
+
+        <TextView
+            style="@style/tv_item_option"
+            android:drawableTop="@drawable/ic_item_robot_deploy"
+            android:text="@string/tv_item_robot_deploy" />
+    </RelativeLayout>
+</LinearLayout>

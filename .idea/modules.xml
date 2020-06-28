@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/TobotAidl/TobotAidl.iml" filepath="$PROJECT_DIR$/TobotAidl/TobotAidl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TobotCommon/TobotCommon.iml" filepath="$PROJECT_DIR$/TobotCommon/TobotCommon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TobotDisinfect/TobotDisinfect.iml" filepath="$PROJECT_DIR$/TobotDisinfect/TobotDisinfect.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TobotLauncher/TobotLauncher.iml" filepath="$PROJECT_DIR$/TobotLauncher/TobotLauncher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TobotRobot_Slam.iml" filepath="$PROJECT_DIR$/TobotRobot_Slam.iml" />
+    </modules>
+  </component>
+</project>

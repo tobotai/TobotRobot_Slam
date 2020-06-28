@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="pwdEditText">
+        <attr name="style" format="enum">
+            <enum name="rectangle" value="0" />
+            <enum name="roundRectangle" value="1" />
+        </attr>
+        <attr name="pwdCount" format="reference|integer" />
+        <attr name="strokeRadius" format="reference|dimension" />
+        <attr name="strokeWidth" format="reference|dimension" />
+        <attr name="strokeColor" format="reference|color" />
+        <attr name="dotColor" format="reference|color" />
+        <attr name="dotRadius" format="reference|dimension" />
+        <attr name="bgColor" format="reference|color" />
+    </declare-styleable>
+</resources>

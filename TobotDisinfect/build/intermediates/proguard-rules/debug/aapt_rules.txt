@@ -1,0 +1,139 @@
+# Referenced at E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\build\intermediates\merged_manifests\debug\AndroidManifest.xml:82
+-keep class com.tobot.disinfect.DisinfectService { <init>(); }
+# Referenced at E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\build\intermediates\merged_manifests\debug\AndroidManifest.xml:40
+-keep class com.tobot.disinfect.MainActivity { <init>(); }
+# Referenced at E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\build\intermediates\merged_manifests\debug\AndroidManifest.xml:31
+-keep class com.tobot.disinfect.base.BaseApplication { <init>(); }
+# Referenced at E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\build\intermediates\merged_manifests\debug\AndroidManifest.xml:76
+-keep class com.tobot.disinfect.module.deploy.map.LocationEditActivity { <init>(); }
+# Referenced at E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\build\intermediates\merged_manifests\debug\AndroidManifest.xml:51
+-keep class com.tobot.disinfect.module.set.SetActivity { <init>(); }
+# Referenced at E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\build\intermediates\merged_manifests\debug\AndroidManifest.xml:61
+-keep class com.tobot.disinfect.module.set.system.AppVersionActivity { <init>(); }
+# Referenced at E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\build\intermediates\merged_manifests\debug\AndroidManifest.xml:56
+-keep class com.tobot.disinfect.module.set.system.DebugActivity { <init>(); }
+# Referenced at E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\build\intermediates\merged_manifests\debug\AndroidManifest.xml:66
+-keep class com.tobot.disinfect.module.set.task.TaskCreateActivity { <init>(); }
+# Referenced at E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\build\intermediates\merged_manifests\debug\AndroidManifest.xml:71
+-keep class com.tobot.disinfect.module.set.wait.WaitPointAddActivity { <init>(); }
+# Referenced at C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\40a11532276fdc7121a1447fd626dd6f\design-26.0.0-alpha1\res\layout\design_bottom_navigation_item.xml:26
+-keep class android.support.design.internal.BaselineLayout { <init>(...); }
+
+# Referenced at C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\40a11532276fdc7121a1447fd626dd6f\design-26.0.0-alpha1\res\layout\design_navigation_item.xml:17
+-keep class android.support.design.internal.NavigationMenuItemView { <init>(...); }
+
+# Referenced at C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\40a11532276fdc7121a1447fd626dd6f\design-26.0.0-alpha1\res\layout\design_navigation_menu.xml:17
+-keep class android.support.design.internal.NavigationMenuView { <init>(...); }
+
+# Referenced at C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\40a11532276fdc7121a1447fd626dd6f\design-26.0.0-alpha1\res\layout\design_layout_snackbar_include.xml:18
+-keep class android.support.design.internal.SnackbarContentLayout { <init>(...); }
+
+# Referenced at C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\40a11532276fdc7121a1447fd626dd6f\design-26.0.0-alpha1\res\layout\design_text_input_password_icon.xml:18
+-keep class android.support.design.widget.CheckableImageButton { <init>(...); }
+
+# Referenced at C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\40a11532276fdc7121a1447fd626dd6f\design-26.0.0-alpha1\res\layout\design_bottom_sheet_dialog.xml:17
+-keep class android.support.design.widget.CoordinatorLayout { <init>(...); }
+
+# Referenced at C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\40a11532276fdc7121a1447fd626dd6f\design-26.0.0-alpha1\res\layout\design_layout_snackbar.xml:18
+-keep class android.support.design.widget.Snackbar$SnackbarLayout { <init>(...); }
+
+# Referenced at E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\res\layout\activity_set.xml:9
+-keep class android.support.design.widget.TabLayout { <init>(...); }
+
+# Referenced at C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\0e734161dc385ee75dc4e4e11d778229\appcompat-v7-26.0.0-alpha1\res\layout\abc_alert_dialog_material.xml:41
+-keep class android.support.v4.widget.NestedScrollView { <init>(...); }
+
+# Referenced at C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\0e734161dc385ee75dc4e4e11d778229\appcompat-v7-26.0.0-alpha1\res\layout\abc_alert_dialog_title_material.xml:56
+# Referenced at C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\0e734161dc385ee75dc4e4e11d778229\appcompat-v7-26.0.0-alpha1\res\layout\abc_alert_dialog_material.xml:52
+# Referenced at C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\0e734161dc385ee75dc4e4e11d778229\appcompat-v7-26.0.0-alpha1\res\layout\abc_alert_dialog_button_bar_material.xml:43
+-keep class android.support.v4.widget.Space { <init>(...); }
+
+# Referenced at C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\0e734161dc385ee75dc4e4e11d778229\appcompat-v7-26.0.0-alpha1\res\layout\abc_select_dialog_material.xml:23
+-keep class android.support.v7.app.AlertController$RecycleListView { <init>(...); }
+
+# Referenced at C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\0e734161dc385ee75dc4e4e11d778229\appcompat-v7-26.0.0-alpha1\res\layout\abc_action_menu_item_layout.xml:17
+-keep class android.support.v7.view.menu.ActionMenuItemView { <init>(...); }
+
+# Referenced at C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\0e734161dc385ee75dc4e4e11d778229\appcompat-v7-26.0.0-alpha1\res\layout\abc_expanded_menu_layout.xml:17
+-keep class android.support.v7.view.menu.ExpandedMenuView { <init>(...); }
+
+# Referenced at C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\0e734161dc385ee75dc4e4e11d778229\appcompat-v7-26.0.0-alpha1\res\layout\abc_popup_menu_item_layout.xml:17
+# Referenced at C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\0e734161dc385ee75dc4e4e11d778229\appcompat-v7-26.0.0-alpha1\res\layout\abc_list_menu_item_layout.xml:17
+-keep class android.support.v7.view.menu.ListMenuItemView { <init>(...); }
+
+# Referenced at C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\0e734161dc385ee75dc4e4e11d778229\appcompat-v7-26.0.0-alpha1\res\layout\abc_screen_toolbar.xml:27
+-keep class android.support.v7.widget.ActionBarContainer { <init>(...); }
+
+# Referenced at C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\0e734161dc385ee75dc4e4e11d778229\appcompat-v7-26.0.0-alpha1\res\layout\abc_screen_toolbar.xml:43
+# Referenced at C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\0e734161dc385ee75dc4e4e11d778229\appcompat-v7-26.0.0-alpha1\res\layout\abc_action_mode_bar.xml:19
+-keep class android.support.v7.widget.ActionBarContextView { <init>(...); }
+
+# Referenced at C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\0e734161dc385ee75dc4e4e11d778229\appcompat-v7-26.0.0-alpha1\res\layout\abc_screen_toolbar.xml:17
+-keep class android.support.v7.widget.ActionBarOverlayLayout { <init>(...); }
+
+# Referenced at C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\0e734161dc385ee75dc4e4e11d778229\appcompat-v7-26.0.0-alpha1\res\layout\abc_action_menu_layout.xml:17
+-keep class android.support.v7.widget.ActionMenuView { <init>(...); }
+
+# Referenced at C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\0e734161dc385ee75dc4e4e11d778229\appcompat-v7-26.0.0-alpha1\res\layout\abc_activity_chooser_view.xml:19
+-keep class android.support.v7.widget.ActivityChooserView$InnerLayout { <init>(...); }
+
+# Referenced at C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\0e734161dc385ee75dc4e4e11d778229\appcompat-v7-26.0.0-alpha1\res\layout\abc_alert_dialog_material.xml:18
+-keep class android.support.v7.widget.AlertDialogLayout { <init>(...); }
+
+# Referenced at C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\0e734161dc385ee75dc4e4e11d778229\appcompat-v7-26.0.0-alpha1\res\layout\abc_alert_dialog_button_bar_material.xml:26
+-keep class android.support.v7.widget.ButtonBarLayout { <init>(...); }
+
+# Referenced at C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\0e734161dc385ee75dc4e4e11d778229\appcompat-v7-26.0.0-alpha1\res\layout\abc_screen_content_include.xml:19
+-keep class android.support.v7.widget.ContentFrameLayout { <init>(...); }
+
+# Referenced at C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\0e734161dc385ee75dc4e4e11d778229\appcompat-v7-26.0.0-alpha1\res\layout\abc_alert_dialog_title_material.xml:45
+-keep class android.support.v7.widget.DialogTitle { <init>(...); }
+
+# Referenced at C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\0e734161dc385ee75dc4e4e11d778229\appcompat-v7-26.0.0-alpha1\res\layout\abc_screen_simple_overlay_action_mode.xml:23
+-keep class android.support.v7.widget.FitWindowsFrameLayout { <init>(...); }
+
+# Referenced at C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\0e734161dc385ee75dc4e4e11d778229\appcompat-v7-26.0.0-alpha1\res\layout\abc_screen_simple.xml:17
+# Referenced at C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\0e734161dc385ee75dc4e4e11d778229\appcompat-v7-26.0.0-alpha1\res\layout\abc_dialog_title_material.xml:22
+-keep class android.support.v7.widget.FitWindowsLinearLayout { <init>(...); }
+
+# Referenced at E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\res\layout\view_line_add.xml:8
+# Referenced at E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\res\layout\popup_load.xml:7
+# Referenced at E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\res\layout\fragment_wait_point.xml:23
+# Referenced at E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\res\layout\fragment_task.xml:23
+# Referenced at E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\res\layout\fragment_map_list.xml:16
+# Referenced at E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\res\layout\dialog_add_point_view.xml:36
+# Referenced at E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\res\layout\activity_wait_point_add.xml:11
+# Referenced at E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\res\layout\activity_task_create.xml:54
+# Referenced at E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\res\layout\activity_app_version.xml:8
+-keep class android.support.v7.widget.RecyclerView { <init>(...); }
+
+# Referenced at C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\0e734161dc385ee75dc4e4e11d778229\appcompat-v7-26.0.0-alpha1\res\layout\abc_search_view.xml:75
+-keep class android.support.v7.widget.SearchView$SearchAutoComplete { <init>(...); }
+
+# Referenced at C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\0e734161dc385ee75dc4e4e11d778229\appcompat-v7-26.0.0-alpha1\res\layout\abc_screen_toolbar.xml:36
+-keep class android.support.v7.widget.Toolbar { <init>(...); }
+
+# Referenced at C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\0e734161dc385ee75dc4e4e11d778229\appcompat-v7-26.0.0-alpha1\res\layout\abc_screen_simple_overlay_action_mode.xml:32
+# Referenced at C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\0e734161dc385ee75dc4e4e11d778229\appcompat-v7-26.0.0-alpha1\res\layout\abc_screen_simple.xml:25
+-keep class android.support.v7.widget.ViewStubCompat { <init>(...); }
+
+# Referenced at E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\res\layout\view_running_loop.xml:45
+# Referenced at E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\res\layout\fragment_low_battery.xml:17
+-keep class com.tobot.bar.seekbar.StripSeekBar { <init>(...); }
+
+# Referenced at E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\res\layout\popup_action.xml:9
+-keep class com.tobot.disinfect.module.deploy.action.RockerView { <init>(...); }
+
+# Referenced at E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\res\layout\fragment_deploy.xml:100
+-keep class com.tobot.disinfect.module.deploy.edit.AddLineView { <init>(...); }
+
+# Referenced at E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\res\layout\fragment_deploy.xml:91
+-keep class com.tobot.disinfect.module.deploy.edit.EditLineView { <init>(...); }
+
+# Referenced at E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\res\layout\activity_set.xml:23
+-keep class com.tobot.disinfect.module.set.SlideConflictViewPager { <init>(...); }
+
+# Referenced at E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\res\layout\fragment_running.xml:6
+# Referenced at E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\res\layout\fragment_deploy.xml:7
+-keep class com.tobot.slam.view.MapView { <init>(...); }
+

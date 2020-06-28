@@ -1,0 +1,2 @@
+# Referenced at E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\build\intermediates\merged_manifests\debug\AndroidManifest.xml:31
+-keep class com.tobot.disinfect.base.BaseApplication { <init>(); }

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="shape_popup_bg">#80000000</color>
+    <color name="shape_task_save_bg">#505154</color>
+    <color name="tv_pose_show">#515151</color>
+    <color name="rocker_bg">#FFFFFF</color>
+    <color name="shape_btn_circle_normal">#FE7700</color>
+</resources>

@@ -1,0 +1,317 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:2:1-79:12
+INJECTED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:2:1-79:12
+INJECTED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:2:1-79:12
+INJECTED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:2:1-79:12
+MERGED from [:TobotCommon] E:\github\robot_slam\local\TobotRobot_Slam\TobotCommon\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-26:12
+MERGED from [com.android.support:design:26.0.0-alpha1] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\40a11532276fdc7121a1447fd626dd6f\design-26.0.0-alpha1\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\0e734161dc385ee75dc4e4e11d778229\appcompat-v7-26.0.0-alpha1\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\ed35fa55951f27e6dd7fd90e24a09ed9\recyclerview-v7-26.0.0-alpha1\AndroidManifest.xml:17:1-26:12
+MERGED from [:TobotAidl] E:\github\robot_slam\local\TobotRobot_Slam\TobotAidl\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:TobotBar-1.1.2:] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\918cbe1ac29314b1554b6043264d6d63\TobotBar-1.1.2\AndroidManifest.xml:2:1-12:12
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\bb8f816da69c5c609437af11927ab62d\multidex-1.0.2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\fdcf3f2d374766ef11a51abe7749ca40\animated-vector-drawable-26.0.0-alpha1\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\b1b65ff8f8f0369f7a335c626521490e\support-vector-drawable-26.0.0-alpha1\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:transition:26.0.0-alpha1] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\7af658fba8fc42e41dd1cf5f24c7371b\transition-26.0.0-alpha1\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\5c9a90c053b494082f6cb8b7fe1849df\support-v4-26.0.0-alpha1\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\c8db36c6ca3993e656d61d860e3b2209\support-fragment-26.0.0-alpha1\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\fd19cf3a66843f161632283aa6c7f7e5\support-core-ui-26.0.0-alpha1\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\5f23b59cffd993c1eb4977de35f5c4ab\support-media-compat-26.0.0-alpha1\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\ef08dd4d16e1224ac56525b1f47b2963\support-core-utils-26.0.0-alpha1\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\8e105985cdc7bd86c94f635c7ec565cb\support-compat-26.0.0-alpha1\AndroidManifest.xml:17:1-31:12
+INJECTED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:2:1-79:12
+INJECTED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:2:1-79:12
+INJECTED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:2:1-79:12
+	package
+		ADDED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:3:5-34
+		INJECTED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml
+		INJECTED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml
+		ADDED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:2:1-79:12
+		INJECTED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml
+		ADDED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:2:1-79:12
+		INJECTED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:5:5-79
+MERGED from [:TobotCommon] E:\github\robot_slam\local\TobotRobot_Slam\TobotCommon\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-79
+MERGED from [:TobotCommon] E:\github\robot_slam\local\TobotRobot_Slam\TobotCommon\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:5:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:6:5-76
+MERGED from [:TobotCommon] E:\github\robot_slam\local\TobotRobot_Slam\TobotCommon\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-76
+MERGED from [:TobotCommon] E:\github\robot_slam\local\TobotRobot_Slam\TobotCommon\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-76
+	android:name
+		ADDED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:6:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:7:5-76
+MERGED from [:TobotCommon] E:\github\robot_slam\local\TobotRobot_Slam\TobotCommon\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:5-76
+MERGED from [:TobotCommon] E:\github\robot_slam\local\TobotRobot_Slam\TobotCommon\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:5-76
+	android:name
+		ADDED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:7:22-73
+uses-permission#android.permission.CHANGE_WIFI_MULTICAST_STATE
+ADDED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:8:5-86
+	android:name
+		ADDED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:8:22-83
+uses-permission#android.permission.INTERNET
+ADDED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:9:5-67
+MERGED from [:TobotCommon] E:\github\robot_slam\local\TobotRobot_Slam\TobotCommon\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-67
+MERGED from [:TobotCommon] E:\github\robot_slam\local\TobotRobot_Slam\TobotCommon\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:9:22-64
+uses-permission#android.permission.FLASHLIGHT
+ADDED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:10:5-69
+	android:name
+		ADDED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:10:22-66
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:11:5-84
+MERGED from [:TobotCommon] E:\github\robot_slam\local\TobotRobot_Slam\TobotCommon\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:5-84
+MERGED from [:TobotCommon] E:\github\robot_slam\local\TobotRobot_Slam\TobotCommon\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:5-84
+	android:name
+		ADDED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:11:22-81
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:12:5-71
+	android:name
+		ADDED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:12:22-68
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:13:22-76
+uses-permission#android.permission.READ_CONTACTS
+ADDED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:14:5-72
+	android:name
+		ADDED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:14:22-69
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:15:5-80
+MERGED from [:TobotCommon] E:\github\robot_slam\local\TobotRobot_Slam\TobotCommon\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:5-80
+MERGED from [:TobotCommon] E:\github\robot_slam\local\TobotRobot_Slam\TobotCommon\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:5-80
+	android:name
+		ADDED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:15:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:16:5-81
+MERGED from [:TobotCommon] E:\github\robot_slam\local\TobotRobot_Slam\TobotCommon\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:5-81
+MERGED from [:TobotCommon] E:\github\robot_slam\local\TobotRobot_Slam\TobotCommon\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:5-81
+	android:name
+		ADDED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:16:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:17:5-80
+MERGED from [:TobotCommon] E:\github\robot_slam\local\TobotRobot_Slam\TobotCommon\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:5-80
+MERGED from [:TobotCommon] E:\github\robot_slam\local\TobotRobot_Slam\TobotCommon\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:5-80
+	android:name
+		ADDED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:17:22-77
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:18:5-73
+MERGED from [:TobotCommon] E:\github\robot_slam\local\TobotRobot_Slam\TobotCommon\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:5-73
+MERGED from [:TobotCommon] E:\github\robot_slam\local\TobotRobot_Slam\TobotCommon\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:5-73
+	android:name
+		ADDED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:18:22-70
+application
+ADDED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:20:5-78:19
+MERGED from [:TobotCommon] E:\github\robot_slam\local\TobotRobot_Slam\TobotCommon\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:5-24:38
+MERGED from [:TobotCommon] E:\github\robot_slam\local\TobotRobot_Slam\TobotCommon\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:5-24:38
+MERGED from [com.android.support:design:26.0.0-alpha1] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\40a11532276fdc7121a1447fd626dd6f\design-26.0.0-alpha1\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:design:26.0.0-alpha1] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\40a11532276fdc7121a1447fd626dd6f\design-26.0.0-alpha1\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\0e734161dc385ee75dc4e4e11d778229\appcompat-v7-26.0.0-alpha1\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\0e734161dc385ee75dc4e4e11d778229\appcompat-v7-26.0.0-alpha1\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\fdcf3f2d374766ef11a51abe7749ca40\animated-vector-drawable-26.0.0-alpha1\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\fdcf3f2d374766ef11a51abe7749ca40\animated-vector-drawable-26.0.0-alpha1\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\b1b65ff8f8f0369f7a335c626521490e\support-vector-drawable-26.0.0-alpha1\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\b1b65ff8f8f0369f7a335c626521490e\support-vector-drawable-26.0.0-alpha1\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:26.0.0-alpha1] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\7af658fba8fc42e41dd1cf5f24c7371b\transition-26.0.0-alpha1\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:26.0.0-alpha1] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\7af658fba8fc42e41dd1cf5f24c7371b\transition-26.0.0-alpha1\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\5c9a90c053b494082f6cb8b7fe1849df\support-v4-26.0.0-alpha1\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\5c9a90c053b494082f6cb8b7fe1849df\support-v4-26.0.0-alpha1\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\c8db36c6ca3993e656d61d860e3b2209\support-fragment-26.0.0-alpha1\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\c8db36c6ca3993e656d61d860e3b2209\support-fragment-26.0.0-alpha1\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\fd19cf3a66843f161632283aa6c7f7e5\support-core-ui-26.0.0-alpha1\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\fd19cf3a66843f161632283aa6c7f7e5\support-core-ui-26.0.0-alpha1\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\5f23b59cffd993c1eb4977de35f5c4ab\support-media-compat-26.0.0-alpha1\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\5f23b59cffd993c1eb4977de35f5c4ab\support-media-compat-26.0.0-alpha1\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\ef08dd4d16e1224ac56525b1f47b2963\support-core-utils-26.0.0-alpha1\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\ef08dd4d16e1224ac56525b1f47b2963\support-core-utils-26.0.0-alpha1\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\8e105985cdc7bd86c94f635c7ec565cb\support-compat-26.0.0-alpha1\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\8e105985cdc7bd86c94f635c7ec565cb\support-compat-26.0.0-alpha1\AndroidManifest.xml:29:5-20
+	android:supportsRtl
+		ADDED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:25:9-35
+	android:label
+		ADDED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:24:9-41
+	android:icon
+		ADDED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:23:9-43
+	android:allowBackup
+		ADDED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:22:9-35
+	android:theme
+		ADDED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:26:9-40
+	android:name
+		ADDED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:21:9-45
+activity#com.tobot.disinfect.MainActivity
+ADDED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:27:9-37:20
+	android:screenOrientation
+		ADDED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:31:13-50
+	android:launchMode
+		ADDED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:30:13-44
+	android:configChanges
+		ADDED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:29:13-186
+	android:name
+		ADDED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:28:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:32:13-36:29
+action#android.intent.action.MAIN
+ADDED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:33:17-69
+	android:name
+		ADDED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:33:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:35:17-77
+	android:name
+		ADDED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:35:27-74
+activity#com.tobot.disinfect.module.set.SetActivity
+ADDED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:39:9-43:53
+	android:screenOrientation
+		ADDED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:43:13-50
+	android:launchMode
+		ADDED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:42:13-42
+	android:configChanges
+		ADDED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:41:13-186
+	android:name
+		ADDED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:40:13-51
+activity#com.tobot.disinfect.module.set.system.DebugActivity
+ADDED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:45:9-49:53
+	android:screenOrientation
+		ADDED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:49:13-50
+	android:launchMode
+		ADDED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:48:13-44
+	android:configChanges
+		ADDED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:47:13-186
+	android:name
+		ADDED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:46:13-60
+activity#com.tobot.disinfect.module.set.system.AppVersionActivity
+ADDED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:51:9-55:53
+	android:screenOrientation
+		ADDED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:55:13-50
+	android:launchMode
+		ADDED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:54:13-44
+	android:configChanges
+		ADDED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:53:13-186
+	android:name
+		ADDED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:52:13-65
+activity#com.tobot.disinfect.module.set.task.TaskCreateActivity
+ADDED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:57:9-61:53
+	android:screenOrientation
+		ADDED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:61:13-50
+	android:launchMode
+		ADDED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:60:13-42
+	android:configChanges
+		ADDED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:59:13-186
+	android:name
+		ADDED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:58:13-63
+activity#com.tobot.disinfect.module.set.wait.WaitPointAddActivity
+ADDED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:63:9-67:53
+	android:screenOrientation
+		ADDED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:67:13-50
+	android:launchMode
+		ADDED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:66:13-42
+	android:configChanges
+		ADDED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:65:13-186
+	android:name
+		ADDED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:64:13-65
+activity#com.tobot.disinfect.module.deploy.map.LocationEditActivity
+ADDED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:69:9-73:53
+	android:screenOrientation
+		ADDED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:73:13-50
+	android:launchMode
+		ADDED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:72:13-42
+	android:configChanges
+		ADDED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:71:13-186
+	android:name
+		ADDED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:70:13-67
+service#com.tobot.disinfect.DisinfectService
+ADDED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:75:9-77:39
+	android:exported
+		ADDED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:77:13-36
+	android:name
+		ADDED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:76:13-45
+uses-sdk
+INJECTED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml
+INJECTED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml
+MERGED from [:TobotCommon] E:\github\robot_slam\local\TobotRobot_Slam\TobotCommon\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:TobotCommon] E:\github\robot_slam\local\TobotRobot_Slam\TobotCommon\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:26.0.0-alpha1] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\40a11532276fdc7121a1447fd626dd6f\design-26.0.0-alpha1\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:26.0.0-alpha1] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\40a11532276fdc7121a1447fd626dd6f\design-26.0.0-alpha1\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\0e734161dc385ee75dc4e4e11d778229\appcompat-v7-26.0.0-alpha1\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\0e734161dc385ee75dc4e4e11d778229\appcompat-v7-26.0.0-alpha1\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\ed35fa55951f27e6dd7fd90e24a09ed9\recyclerview-v7-26.0.0-alpha1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\ed35fa55951f27e6dd7fd90e24a09ed9\recyclerview-v7-26.0.0-alpha1\AndroidManifest.xml:20:5-44
+MERGED from [:TobotAidl] E:\github\robot_slam\local\TobotRobot_Slam\TobotAidl\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:TobotAidl] E:\github\robot_slam\local\TobotRobot_Slam\TobotAidl\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:TobotBar-1.1.2:] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\918cbe1ac29314b1554b6043264d6d63\TobotBar-1.1.2\AndroidManifest.xml:8:5-10:41
+MERGED from [:TobotBar-1.1.2:] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\918cbe1ac29314b1554b6043264d6d63\TobotBar-1.1.2\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\bb8f816da69c5c609437af11927ab62d\multidex-1.0.2\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\bb8f816da69c5c609437af11927ab62d\multidex-1.0.2\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\fdcf3f2d374766ef11a51abe7749ca40\animated-vector-drawable-26.0.0-alpha1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\fdcf3f2d374766ef11a51abe7749ca40\animated-vector-drawable-26.0.0-alpha1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\b1b65ff8f8f0369f7a335c626521490e\support-vector-drawable-26.0.0-alpha1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\b1b65ff8f8f0369f7a335c626521490e\support-vector-drawable-26.0.0-alpha1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.0.0-alpha1] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\7af658fba8fc42e41dd1cf5f24c7371b\transition-26.0.0-alpha1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.0.0-alpha1] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\7af658fba8fc42e41dd1cf5f24c7371b\transition-26.0.0-alpha1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\5c9a90c053b494082f6cb8b7fe1849df\support-v4-26.0.0-alpha1\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\5c9a90c053b494082f6cb8b7fe1849df\support-v4-26.0.0-alpha1\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\c8db36c6ca3993e656d61d860e3b2209\support-fragment-26.0.0-alpha1\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\c8db36c6ca3993e656d61d860e3b2209\support-fragment-26.0.0-alpha1\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\fd19cf3a66843f161632283aa6c7f7e5\support-core-ui-26.0.0-alpha1\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\fd19cf3a66843f161632283aa6c7f7e5\support-core-ui-26.0.0-alpha1\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\5f23b59cffd993c1eb4977de35f5c4ab\support-media-compat-26.0.0-alpha1\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\5f23b59cffd993c1eb4977de35f5c4ab\support-media-compat-26.0.0-alpha1\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\ef08dd4d16e1224ac56525b1f47b2963\support-core-utils-26.0.0-alpha1\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\ef08dd4d16e1224ac56525b1f47b2963\support-core-utils-26.0.0-alpha1\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\8e105985cdc7bd86c94f635c7ec565cb\support-compat-26.0.0-alpha1\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\8e105985cdc7bd86c94f635c7ec565cb\support-compat-26.0.0-alpha1\AndroidManifest.xml:21:5-23:58
+INJECTED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml
+INJECTED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:26.0.0-alpha1] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\40a11532276fdc7121a1447fd626dd6f\design-26.0.0-alpha1\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml
+		ADDED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml
+		INJECTED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml
+		ADDED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml
+		INJECTED from E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml
+uses-permission#android.permission.SET_TIME
+ADDED from [:TobotCommon] E:\github\robot_slam\local\TobotRobot_Slam\TobotCommon\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:5-67
+	android:name
+		ADDED from [:TobotCommon] E:\github\robot_slam\local\TobotRobot_Slam\TobotCommon\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:22-64
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:26.0.0-alpha1] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\40a11532276fdc7121a1447fd626dd6f\design-26.0.0-alpha1\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\0e734161dc385ee75dc4e4e11d778229\appcompat-v7-26.0.0-alpha1\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\0e734161dc385ee75dc4e4e11d778229\appcompat-v7-26.0.0-alpha1\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\ed35fa55951f27e6dd7fd90e24a09ed9\recyclerview-v7-26.0.0-alpha1\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\ed35fa55951f27e6dd7fd90e24a09ed9\recyclerview-v7-26.0.0-alpha1\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\fdcf3f2d374766ef11a51abe7749ca40\animated-vector-drawable-26.0.0-alpha1\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\fdcf3f2d374766ef11a51abe7749ca40\animated-vector-drawable-26.0.0-alpha1\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\b1b65ff8f8f0369f7a335c626521490e\support-vector-drawable-26.0.0-alpha1\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\b1b65ff8f8f0369f7a335c626521490e\support-vector-drawable-26.0.0-alpha1\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:transition:26.0.0-alpha1] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\7af658fba8fc42e41dd1cf5f24c7371b\transition-26.0.0-alpha1\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:transition:26.0.0-alpha1] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\7af658fba8fc42e41dd1cf5f24c7371b\transition-26.0.0-alpha1\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\5c9a90c053b494082f6cb8b7fe1849df\support-v4-26.0.0-alpha1\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\5c9a90c053b494082f6cb8b7fe1849df\support-v4-26.0.0-alpha1\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\c8db36c6ca3993e656d61d860e3b2209\support-fragment-26.0.0-alpha1\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\c8db36c6ca3993e656d61d860e3b2209\support-fragment-26.0.0-alpha1\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\fd19cf3a66843f161632283aa6c7f7e5\support-core-ui-26.0.0-alpha1\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\fd19cf3a66843f161632283aa6c7f7e5\support-core-ui-26.0.0-alpha1\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\5f23b59cffd993c1eb4977de35f5c4ab\support-media-compat-26.0.0-alpha1\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\5f23b59cffd993c1eb4977de35f5c4ab\support-media-compat-26.0.0-alpha1\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\ef08dd4d16e1224ac56525b1f47b2963\support-core-utils-26.0.0-alpha1\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\ef08dd4d16e1224ac56525b1f47b2963\support-core-utils-26.0.0-alpha1\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\8e105985cdc7bd86c94f635c7ec565cb\support-compat-26.0.0-alpha1\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\8e105985cdc7bd86c94f635c7ec565cb\support-compat-26.0.0-alpha1\AndroidManifest.xml:25:5-27:41
+	android:value
+		ADDED from [com.android.support:design:26.0.0-alpha1] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\40a11532276fdc7121a1447fd626dd6f\design-26.0.0-alpha1\AndroidManifest.xml:27:9-38
+	android:name
+		ADDED from [com.android.support:design:26.0.0-alpha1] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\40a11532276fdc7121a1447fd626dd6f\design-26.0.0-alpha1\AndroidManifest.xml:26:9-47

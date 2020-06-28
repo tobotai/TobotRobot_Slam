@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/main_view_margin"
+        android:layout_marginTop="@dimen/view_interval_size"
+        android:layout_marginRight="@dimen/main_view_margin"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_task_implement_by_count"
+            style="@style/rb_btn"
+            android:text="@string/rb_task_implement_by_count" />
+
+        <RadioButton
+            android:id="@+id/rb_task_implement_loop"
+            style="@style/rb_btn"
+            android:layout_marginLeft="@dimen/rb_margin"
+            android:text="@string/rb_task_implement_loop" />
+    </RadioGroup>
+
+    <RelativeLayout
+        android:id="@+id/rl_loop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/main_view_margin"
+        android:layout_marginTop="@dimen/view_interval_size"
+        android:layout_marginRight="@dimen/main_view_margin"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tv_current_count_tips"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/option_tv_color"
+            android:textSize="@dimen/option_tv_main_size" />
+
+        <com.tobot.bar.seekbar.StripSeekBar
+            android:id="@+id/sb_count"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/sb_height"
+            android:layout_marginLeft="@dimen/sb_padding_left"
+            android:layout_toRightOf="@id/tv_current_count_tips"
+            android:paddingLeft="@dimen/sb_padding_left"
+            android:paddingRight="@dimen/sb_padding_left"
+            app:bar_bgColor="@color/sb_bg"
+            app:bar_centerColor="@color/sb_center"
+            app:bar_circleColor="@color/sb_circle"
+            app:bar_endColor="@color/sb_end"
+            app:bar_height="@dimen/sb_bar_height"
+            app:bar_startColor="@color/sb_start"
+            app:bar_textShow="false" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/main_view_margin"
+        android:layout_marginTop="@dimen/view_interval_size"
+        android:text="@string/tv_task_end_tips"
+        android:textColor="@color/option_tv_color"
+        android:textSize="@dimen/option_tv_main_size" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/main_view_margin"
+        android:layout_marginTop="@dimen/view_interval_size"
+        android:layout_marginRight="@dimen/main_view_margin"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_go_charge"
+            style="@style/rb_btn"
+            android:text="@string/rb_go_charge" />
+
+        <RadioButton
+            android:id="@+id/rb_go_wait_point"
+            style="@style/rb_btn"
+            android:layout_marginLeft="@dimen/rb_margin"
+            android:text="@string/rb_go_wait_point" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tv_wait_point_tips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/main_view_margin"
+        android:layout_marginTop="@dimen/view_interval_size"
+        android:layout_marginRight="@dimen/main_view_margin"
+        android:textColor="@color/option_tv_color"
+        android:textSize="@dimen/option_tv_main_size" />
+
+    <View
+        style="@style/whole_view_line"
+        android:layout_marginTop="@dimen/view_interval_size" />
+</LinearLayout>

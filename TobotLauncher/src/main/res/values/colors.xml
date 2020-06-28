@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="shape_item_free_running_normal">#61D9CD</color>
+    <color name="shape_item_free_running_pressed">#5CC2B7</color>
+    <color name="shape_item_robot_deploy_normal">#FEB5A3</color>
+    <color name="shape_item_robot_deploy_pressed">#D69B8D</color>
+    <color name="window_tv">#FFFFFF</color>
+    <color name="battery_stroke">#FFFFFF</color>
+    <color name="battery_solid_normal">#FFFFFF</color>
+    <color name="battery_solid_charge">#4CD964</color>
+    <color name="battery_solid_low">#F21F1F</color>
+    <color name="battery_text">#FFFFFF</color>
+</resources>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.tobot.slam.view.MapView
+        android:id="@+id/map_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/tv_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="@dimen/main_view_margin"
+        android:layout_marginRight="@dimen/view_margin_top"
+        android:text="@string/tv_status_show"
+        android:textColor="@color/tv_pose_show"
+        android:textSize="@dimen/tv_mode_tips" />
+
+    <TextView
+        android:id="@+id/tv_pose_show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_status"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/view_margin_top"
+        android:text="@string/tv_pose_show"
+        android:textColor="@color/tv_pose_show"
+        android:textSize="@dimen/tv_mode_tips" />
+
+    <LinearLayout
+        android:id="@+id/ll_show_load"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/ll_load_margin_left"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_load_map"
+            style="@style/btn_load"
+            android:text="@string/btn_load_map" />
+
+        <Button
+            android:id="@+id/btn_load_task"
+            style="@style/btn_load"
+            android:layout_marginTop="@dimen/btn_load_margin_top"
+            android:text="@string/btn_load_task" />
+
+        <Button
+            android:id="@+id/btn_charge"
+            style="@style/btn_load"
+            android:layout_marginTop="@dimen/btn_load_margin_top"
+            android:text="@string/btn_charge" />
+
+        <Button
+            android:id="@+id/btn_first_execute"
+            style="@style/btn_execute"
+            android:layout_marginTop="@dimen/btn_load_margin_top"
+            android:text="@string/btn_first_execute" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_cancel_task"
+        style="@style/btn_load"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/ll_load_margin_left"
+        android:text="@string/btn_cancel_task"
+        android:visibility="gone" />
+
+    <ViewStub
+        android:id="@+id/view_stub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/view_margin_bottom"
+        android:layout="@layout/view_running_test" />
+</RelativeLayout>

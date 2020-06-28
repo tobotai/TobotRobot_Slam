@@ -1,0 +1,172 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.tobot.disinfect"
+4    android:versionCode="2"
+5    android:versionName="1.2.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="26" />
+9-->E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:5:5-79
+11-->E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:5:22-76
+12    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+12-->E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:6:5-76
+12-->E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:6:22-73
+13    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+13-->E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:7:5-76
+13-->E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:7:22-73
+14    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+14-->E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:8:5-86
+14-->E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:8:22-83
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:9:5-67
+15-->E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:9:22-64
+16    <uses-permission android:name="android.permission.FLASHLIGHT" />
+16-->E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:10:5-69
+16-->E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:10:22-66
+17    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+17-->E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:11:5-84
+17-->E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:11:22-81
+18    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+18-->E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:12:5-71
+18-->E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:12:22-68
+19    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+19-->E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:13:5-79
+19-->E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:13:22-76
+20    <uses-permission android:name="android.permission.READ_CONTACTS" />
+20-->E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:14:5-72
+20-->E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:14:22-69
+21    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+21-->E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:15:5-80
+21-->E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:15:22-77
+22    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+22-->E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:16:5-81
+22-->E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:16:22-78
+23    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+23-->E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:17:5-80
+23-->E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:17:22-77
+24    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+24-->E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:18:5-73
+24-->E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:18:22-70
+25    <uses-permission android:name="android.permission.SET_TIME" />
+25-->[:TobotCommon] E:\github\robot_slam\local\TobotRobot_Slam\TobotCommon\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:5-67
+25-->[:TobotCommon] E:\github\robot_slam\local\TobotRobot_Slam\TobotCommon\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:22-64
+26
+27    <meta-data
+27-->[com.android.support:design:26.0.0-alpha1] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\40a11532276fdc7121a1447fd626dd6f\design-26.0.0-alpha1\AndroidManifest.xml:25:5-27:41
+28        android:name="android.support.VERSION"
+28-->[com.android.support:design:26.0.0-alpha1] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\40a11532276fdc7121a1447fd626dd6f\design-26.0.0-alpha1\AndroidManifest.xml:26:9-47
+29        android:value="26.0.0-alpha1" />
+29-->[com.android.support:design:26.0.0-alpha1] C:\Users\houdeming\.gradle\caches\transforms-2\files-2.1\40a11532276fdc7121a1447fd626dd6f\design-26.0.0-alpha1\AndroidManifest.xml:27:9-38
+30
+31    <application
+31-->E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:20:5-78:19
+32        android:name="com.tobot.disinfect.base.BaseApplication"
+32-->E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:21:9-45
+33        android:allowBackup="true"
+33-->E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:22:9-35
+34        android:debuggable="true"
+35        android:icon="@mipmap/ic_launcher"
+35-->E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:23:9-43
+36        android:label="@string/app_name"
+36-->E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:24:9-41
+37        android:supportsRtl="true"
+37-->E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:25:9-35
+38        android:testOnly="true"
+39        android:theme="@style/AppTheme" >
+39-->E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:26:9-40
+40        <activity
+40-->E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:27:9-37:20
+41            android:name="com.tobot.disinfect.MainActivity"
+41-->E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:28:13-41
+42            android:configChanges="locale|layoutDirection|orientation|keyboard|keyboardHidden|screenSize|mcc|mnc|screenLayout|touchscreen|navigation|fontScale|uiMode|smallestScreenSize"
+42-->E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:29:13-186
+43            android:launchMode="singleTask"
+43-->E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:30:13-44
+44            android:screenOrientation="landscape" >
+44-->E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:31:13-50
+45            <intent-filter>
+45-->E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:32:13-36:29
+46                <action android:name="android.intent.action.MAIN" />
+46-->E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:33:17-69
+46-->E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:33:25-66
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:35:17-77
+48-->E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:35:27-74
+49            </intent-filter>
+50        </activity>
+51        <activity
+51-->E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:39:9-43:53
+52            android:name="com.tobot.disinfect.module.set.SetActivity"
+52-->E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:40:13-51
+53            android:configChanges="locale|layoutDirection|orientation|keyboard|keyboardHidden|screenSize|mcc|mnc|screenLayout|touchscreen|navigation|fontScale|uiMode|smallestScreenSize"
+53-->E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:41:13-186
+54            android:launchMode="standard"
+54-->E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:42:13-42
+55            android:screenOrientation="landscape" />
+55-->E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:43:13-50
+56        <activity
+56-->E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:45:9-49:53
+57            android:name="com.tobot.disinfect.module.set.system.DebugActivity"
+57-->E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:46:13-60
+58            android:configChanges="locale|layoutDirection|orientation|keyboard|keyboardHidden|screenSize|mcc|mnc|screenLayout|touchscreen|navigation|fontScale|uiMode|smallestScreenSize"
+58-->E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:47:13-186
+59            android:launchMode="singleTask"
+59-->E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:48:13-44
+60            android:screenOrientation="landscape" />
+60-->E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:49:13-50
+61        <activity
+61-->E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:51:9-55:53
+62            android:name="com.tobot.disinfect.module.set.system.AppVersionActivity"
+62-->E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:52:13-65
+63            android:configChanges="locale|layoutDirection|orientation|keyboard|keyboardHidden|screenSize|mcc|mnc|screenLayout|touchscreen|navigation|fontScale|uiMode|smallestScreenSize"
+63-->E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:53:13-186
+64            android:launchMode="singleTask"
+64-->E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:54:13-44
+65            android:screenOrientation="landscape" />
+65-->E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:55:13-50
+66        <activity
+66-->E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:57:9-61:53
+67            android:name="com.tobot.disinfect.module.set.task.TaskCreateActivity"
+67-->E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:58:13-63
+68            android:configChanges="locale|layoutDirection|orientation|keyboard|keyboardHidden|screenSize|mcc|mnc|screenLayout|touchscreen|navigation|fontScale|uiMode|smallestScreenSize"
+68-->E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:59:13-186
+69            android:launchMode="standard"
+69-->E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:60:13-42
+70            android:screenOrientation="landscape" />
+70-->E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:61:13-50
+71        <activity
+71-->E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:63:9-67:53
+72            android:name="com.tobot.disinfect.module.set.wait.WaitPointAddActivity"
+72-->E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:64:13-65
+73            android:configChanges="locale|layoutDirection|orientation|keyboard|keyboardHidden|screenSize|mcc|mnc|screenLayout|touchscreen|navigation|fontScale|uiMode|smallestScreenSize"
+73-->E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:65:13-186
+74            android:launchMode="standard"
+74-->E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:66:13-42
+75            android:screenOrientation="landscape" />
+75-->E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:67:13-50
+76        <activity
+76-->E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:69:9-73:53
+77            android:name="com.tobot.disinfect.module.deploy.map.LocationEditActivity"
+77-->E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:70:13-67
+78            android:configChanges="locale|layoutDirection|orientation|keyboard|keyboardHidden|screenSize|mcc|mnc|screenLayout|touchscreen|navigation|fontScale|uiMode|smallestScreenSize"
+78-->E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:71:13-186
+79            android:launchMode="standard"
+79-->E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:72:13-42
+80            android:screenOrientation="landscape" />
+80-->E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:73:13-50
+81
+82        <service
+82-->E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:75:9-77:39
+83            android:name="com.tobot.disinfect.DisinfectService"
+83-->E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:76:13-45
+84            android:exported="true" />
+84-->E:\github\robot_slam\local\TobotRobot_Slam\TobotDisinfect\src\main\AndroidManifest.xml:77:13-36
+85    </application>
+86
+87</manifest>

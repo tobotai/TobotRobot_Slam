@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/shape_dialog_bg"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:overScrollMode="never">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_task_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/dialog_title_margin_top"
+                android:gravity="center"
+                android:textColor="@color/dialog_title_tv"
+                android:textSize="@dimen/dialog_title_size" />
+
+            <TextView
+                android:id="@+id/tv_task_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dialog_content_margin_left"
+                android:layout_marginRight="@dimen/dialog_content_margin_left"
+                android:lineSpacingExtra="@dimen/item_split_size"
+                android:text="@string/tv_task_point_tips"
+                android:textColor="@color/dialog_content_tv"
+                android:textSize="@dimen/dialog_content_size" />
+
+            <TextView
+                android:id="@+id/tv_task_obstacle_mode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dialog_content_margin_left"
+                android:layout_marginTop="@dimen/dialog_content_margin_top"
+                android:layout_marginRight="@dimen/dialog_content_margin_left"
+                android:lineSpacingExtra="@dimen/item_split_size"
+                android:text="@string/tv_task_obstacle_mode_tips"
+                android:textColor="@color/dialog_content_tv"
+                android:textSize="@dimen/dialog_content_size" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dialog_btn_height"
+        android:layout_marginTop="@dimen/dialog_btn_margin_top"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_cancel"
+            style="@style/btn_dialog"
+            android:background="@drawable/selector_dialog_btn_cancel_bg"
+            android:text="@string/btn_cancel" />
+
+        <Button
+            android:id="@+id/btn_delete"
+            style="@style/btn_dialog"
+            android:background="@drawable/selector_dialog_btn_confirm_bg"
+            android:text="@string/btn_delete" />
+    </LinearLayout>
+</LinearLayout>

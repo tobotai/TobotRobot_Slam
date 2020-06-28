@@ -1,0 +1,81 @@
+<resources>
+
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light" />
+
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="btn_load" parent="@style/Widget.AppCompat.Button.Borderless">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/selector_btn_load_bg</item>
+        <item name="android:textSize">@dimen/btn_size</item>
+        <item name="android:textColor">@color/btn_tv</item>
+        <item name="android:minWidth">0dp</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="btn_execute" parent="@style/Widget.AppCompat.Button.Borderless">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/selector_btn_execute_bg</item>
+        <item name="android:textSize">@dimen/btn_size</item>
+        <item name="android:textColor">@color/btn_tv</item>
+        <item name="android:minWidth">0dp</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="rb_btn">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:button">@null</item>
+        <item name="android:drawableLeft">@drawable/selector_iv_select</item>
+        <item name="android:drawablePadding">@dimen/rb_padding</item>
+        <item name="android:textSize">@dimen/option_tv_main_size</item>
+        <item name="android:textColor">@drawable/selector_tv</item>
+    </style>
+
+    <style name="rb_map_operate">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:button">@null</item>
+        <item name="android:background">@drawable/selector_btn_circle_bg</item>
+        <item name="android:textColor">@drawable/selector_tv_stop</item>
+        <item name="android:textSize">@dimen/option_tv_main_size</item>
+    </style>
+
+    <style name="btn_location_style" parent="@style/Widget.AppCompat.Button.Borderless">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/btn_height</item>
+        <item name="android:background">@drawable/selector_btn_location_bg</item>
+        <item name="android:textSize">@dimen/btn_size</item>
+        <item name="android:textColor">@drawable/selector_tv_location</item>
+        <item name="android:minWidth">0dp</item>
+        <item name="android:paddingLeft">@dimen/btn_padding_left_right</item>
+        <item name="android:paddingRight">@dimen/btn_padding_left_right</item>
+    </style>
+
+    <style name="view_line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/line_height</item>
+        <item name="android:background">@color/line_color</item>
+    </style>
+
+    <style name="et_edit_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/edit_height</item>
+        <item name="android:background">@drawable/shape_edit_bg</item>
+        <item name="android:textSize">@dimen/edit_tv_size</item>
+        <item name="android:textColor">@color/edit_tv_tips</item>
+        <item name="android:textColorHint">@color/edit_hint_tips</item>
+        <item name="android:layout_marginLeft">@dimen/main_view_margin</item>
+        <item name="android:layout_marginTop">@dimen/et_margin_top</item>
+        <item name="android:layout_marginRight">@dimen/main_view_margin</item>
+        <item name="android:gravity">center</item>
+    </style>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_item_root"
+    android:layout_width="@dimen/pop_load_width"
+    android:layout_height="wrap_content"
+    android:paddingTop="@dimen/pop_item_padding"
+    android:paddingBottom="@dimen/pop_item_padding">
+
+    <TextView
+        android:id="@+id/tv_item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:textColor="@color/tv_item"
+        android:textSize="@dimen/tv_item" />
+</RelativeLayout>

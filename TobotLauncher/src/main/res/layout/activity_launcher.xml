@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/theme_bg">
+
+    <TextView
+        android:id="@+id/tv_robot_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/main_view_margin"
+        android:text="@string/tv_robot_name"
+        android:textColor="@color/tv_item"
+        android:textSize="@dimen/tv_robot_name" />
+
+    <TextView
+        android:id="@+id/tv_company"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/tv_company_margin_bottom"
+        android:gravity="center"
+        android:lineSpacingExtra="@dimen/tv_line_spacing_extra"
+        android:text="@string/tv_company"
+        android:textColor="@color/tv_item"
+        android:textSize="@dimen/tv_company" />
+
+    <com.tobot.launcher.module.home.OptionView
+        android:id="@+id/view_option"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/tv_company"
+        android:layout_below="@id/tv_robot_name"
+        android:layout_marginLeft="@dimen/main_view_margin"
+        android:layout_marginTop="@dimen/main_view_margin"
+        android:layout_marginRight="@dimen/main_view_margin"
+        android:layout_marginBottom="@dimen/main_view_margin" />
+</RelativeLayout>

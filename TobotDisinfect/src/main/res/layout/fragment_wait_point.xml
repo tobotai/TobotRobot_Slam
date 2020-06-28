@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/theme_bg"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_add_wait_point"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/btn_over_height"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/view_margin_top"
+        android:background="@drawable/selector_btn_oval_bg"
+        android:gravity="center"
+        android:paddingLeft="@dimen/btn_over_padding_left"
+        android:paddingRight="@dimen/btn_over_padding_left"
+        android:text="@string/btn_add_wait_point"
+        android:textColor="@color/btn_tv"
+        android:textSize="@dimen/btn_size" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/main_view_margin"
+        android:layout_marginRight="@dimen/main_view_margin"
+        android:layout_marginBottom="@dimen/view_margin_bottom"
+        android:overScrollMode="never" />
+</LinearLayout>

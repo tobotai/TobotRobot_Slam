@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="theme_bg">#000000</color>
+    <color name="shape_stroke">#FFFFFF</color>
+    <color name="shape_btn_normal">#3788FB</color>
+    <color name="shape_btn_pressed">#2F6EC9</color>
+    <color name="shape_btn_exit_normal">#FF0000</color>
+    <color name="shape_btn_exit_pressed">#CF0202</color>
+    <color name="shape_confirm_normal">#2E3545</color>
+    <color name="shape_confirm_pressed">#1B202A</color>
+    <color name="shape_cancel_bg_normal">#5E5E5E</color>
+    <color name="shape_cancel_bg_pressed">#343434</color>
+    <color name="shape_dialog_bg">#3788FB</color>
+    <color name="dialog_btn_tv">#FFFFFF</color>
+    <color name="dialog_title_tv">#FFFFFF</color>
+    <color name="dialog_content_tv">#FFFFFF</color>
+    <color name="dialog_tips_tv">#FFFFFF</color>
+    <color name="tv_task_normal">#FFFFFF</color>
+    <color name="tv_task_execute_select">#FFFFFF</color>
+    <color name="btn_tv">#FFFFFF</color>
+    <color name="tv_head_color">#FFFFFF</color>
+    <color name="line_color">#FFFFFF</color>
+    <color name="option_bg_normal">#15ffffff</color>
+    <color name="option_bg_pressed">#3788FB</color>
+    <color name="option_tv_color">#FFFFFF</color>
+    <color name="shape_edit_stroke">#FFFFFF</color>
+    <color name="edit_hint_tips">#FFFFFF</color>
+    <color name="edit_tv_tips">#FFFFFF</color>
+    <color name="tv_item">#FFFFFF</color>
+    <color name="tv_item_pressed">#3788FB</color>
+    <color name="sb_bg">#A0A0A0</color>
+    <color name="sb_start">#3788FB</color>
+    <color name="sb_center">#3788FB</color>
+    <color name="sb_end">#3788FB</color>
+    <color name="sb_circle">#FFFFFF</color>
+</resources>

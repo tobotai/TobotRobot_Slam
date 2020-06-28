@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/theme_bg"
+    android:orientation="vertical">
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tl_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/main_view_margin"
+        app:tabBackground="@drawable/selector_tab_bg"
+        app:tabGravity="center"
+        app:tabIndicatorHeight="0dp"
+        app:tabMaxWidth="@dimen/tab_max_width"
+        app:tabMinWidth="@dimen/tab_min_width"
+        app:tabMode="scrollable"
+        app:tabPaddingEnd="@dimen/tab_padding_end"
+        app:tabPaddingStart="@dimen/tab_padding_start" />
+
+    <com.tobot.disinfect.module.set.SlideConflictViewPager
+        android:id="@+id/vp_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never" />
+</LinearLayout>

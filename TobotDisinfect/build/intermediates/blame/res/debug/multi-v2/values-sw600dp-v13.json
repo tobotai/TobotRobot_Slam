@@ -1,0 +1,72 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\github\\robot_slam\\local\\TobotRobot_Slam\\TobotDisinfect\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+            "map": [
+                {
+                    "source": "E:\\github\\robot_slam\\local\\TobotRobot_Slam\\TobotCommon\\build\\intermediates\\packaged_res\\debug\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,105,151,212",
+                        "endColumns": "49,45,60,51",
+                        "endOffsets": "100,146,207,259"
+                    },
+                    "to": {
+                        "startLines": "19,20,22,23",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "1221,1271,1380,1441",
+                        "endColumns": "49,45,60,51",
+                        "endOffsets": "1266,1312,1436,1488"
+                    }
+                },
+                {
+                    "source": "E:\\github\\robot_slam\\local\\TobotRobot_Slam\\TobotDisinfect\\src\\main\\res\\values-sw600dp\\dimnes.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endColumns": "50",
+                        "endOffsets": "103"
+                    },
+                    "to": {
+                        "startLines": "18",
+                        "startColumns": "4",
+                        "startOffsets": "1170",
+                        "endColumns": "50",
+                        "endOffsets": "1216"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\houdeming\\.gradle\\caches\\transforms-2\\files-2.1\\40a11532276fdc7121a1447fd626dd6f\\design-26.0.0-alpha1\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,115,185,256,328,386,444,550,614,677",
+                        "endLines": "2,3,4,5,6,7,8,9,10,14",
+                        "endColumns": "59,69,70,71,57,57,105,63,62,12",
+                        "endOffsets": "110,180,251,323,381,439,545,609,672,854"
+                    },
+                    "to": {
+                        "startLines": "10,11,12,13,14,15,16,17,21,24",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "611,671,741,812,884,942,1000,1106,1317,1493",
+                        "endLines": "10,11,12,13,14,15,16,17,21,27",
+                        "endColumns": "59,69,70,71,57,57,105,63,62,12",
+                        "endOffsets": "666,736,807,879,937,995,1101,1165,1375,1670"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\houdeming\\.gradle\\caches\\transforms-2\\files-2.1\\0e734161dc385ee75dc4e4e11d778229\\appcompat-v7-26.0.0-alpha1\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,124,193,263,337,413,472,543",
+                        "endColumns": "68,68,69,73,75,58,70,67",
+                        "endOffsets": "119,188,258,332,408,467,538,606"
+                    }
+                }
+            ]
+        }
+    ]
+}

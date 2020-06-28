@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/theme_bg">
+
+    <include
+        android:id="@+id/view_head"
+        layout="@layout/view_head" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/view_head">
+
+        <RelativeLayout
+            android:id="@+id/rl_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="@dimen/main_view_margin"
+            android:layout_marginTop="@dimen/view_margin_top"
+            android:layout_marginRight="@dimen/main_view_margin"
+            android:layout_marginBottom="@dimen/view_margin_bottom">
+
+            <TextView
+                android:id="@+id/tv_select_all"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:drawableLeft="@drawable/selector_iv_select"
+                android:drawablePadding="@dimen/iv_drawable_padding"
+                android:gravity="center_vertical"
+                android:paddingRight="@dimen/main_view_margin"
+                android:text="@string/tv_select_all"
+                android:textColor="@drawable/selector_tv"
+                android:textSize="@dimen/option_tv_main_size" />
+
+            <Button
+                android:id="@+id/btn_confirm"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/btn_over_height"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/selector_btn_confirm_bg"
+                android:enabled="false"
+                android:paddingLeft="@dimen/btn_over_padding_left"
+                android:paddingRight="@dimen/btn_over_padding_left"
+                android:text="@string/btn_confirm"
+                android:textColor="@color/btn_tv"
+                android:textSize="@dimen/btn_size" />
+        </RelativeLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/rl_bottom"
+            android:layout_marginLeft="@dimen/main_view_margin"
+            android:layout_marginRight="@dimen/main_view_margin"
+            android:overScrollMode="never" />
+    </RelativeLayout>
+</RelativeLayout>

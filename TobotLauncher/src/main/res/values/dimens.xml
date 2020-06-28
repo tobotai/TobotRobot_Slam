@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tv_robot_name">45sp</dimen>
+    <dimen name="tv_company">22sp</dimen>
+    <dimen name="tv_company_margin_bottom">20dp</dimen>
+    <dimen name="tv_item_option">35sp</dimen>
+    <dimen name="tv_item_padding">10dp</dimen>
+    <dimen name="window_iv_back_size">65dp</dimen>
+    <dimen name="window_iv_back_margin">5dp</dimen>
+    <dimen name="waring_ic_margin_top">10dp</dimen>
+    <dimen name="waring_ic_net_margin_top">5dp</dimen>
+    <dimen name="waring_ic_margin_right">15dp</dimen>
+    <dimen name="waring_ic_margin_most_right">25dp</dimen>
+    <dimen name="tv_admin">22sp</dimen>
+    <dimen name="battery_width">56dp</dimen>
+    <dimen name="battery_height">28dp</dimen>
+    <dimen name="battery_inside_margin">3dp</dimen>
+    <dimen name="battery_stroke_width">2dp</dimen>
+    <dimen name="battery_radius">5dp</dimen>
+    <dimen name="battery_head_width">4dp</dimen>
+    <dimen name="battery_head_height">10dp</dimen>
+    <dimen name="battery_head_margin_left">0dp</dimen>
+    <dimen name="battery_text_size">20sp</dimen>
+    <dimen name="battery_text_margin">10dp</dimen>
+    <dimen name="battery_charge_sign_margin">10dp</dimen>
+    <dimen name="battery_charge_sign_width">15dp</dimen>
+</resources>

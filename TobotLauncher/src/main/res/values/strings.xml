@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TobotLauncher</string>
+    <string name="tv_robot_name">瞳步机器人</string>
+    <string name="tv_company">上海瞳步智能科技有限公司\n网址：http://www.tobotai.com</string>
+    <string name="tv_item_free_running">自动运行</string>
+    <string name="tv_item_robot_deploy">机器人部署</string>
+    <string name="name_empty_tips">名称不能为空，请输入…</string>
+    <string name="mode_change_low_battery">抱歉，目前电量较低，请稍后再试…</string>
+</resources>

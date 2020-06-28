@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/theme_bg"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:overScrollMode="never">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_task_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/main_view_margin"
+                android:gravity="center"
+                android:textColor="@color/option_tv_color"
+                android:textSize="@dimen/tv_head_size" />
+
+            <TextView
+                android:id="@+id/tv_task_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/main_view_margin"
+                android:layout_marginRight="@dimen/main_view_margin"
+                android:lineSpacingExtra="@dimen/item_split_size"
+                android:text="@string/tv_task_point_tips"
+                android:textColor="@color/option_tv_color"
+                android:textSize="@dimen/option_tv_main_size" />
+
+            <TextView
+                android:id="@+id/tv_task_obstacle_mode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/main_view_margin"
+                android:layout_marginTop="@dimen/view_interval_size"
+                android:layout_marginRight="@dimen/main_view_margin"
+                android:lineSpacingExtra="@dimen/item_split_size"
+                android:text="@string/tv_task_obstacle_mode_tips"
+                android:textColor="@color/option_tv_color"
+                android:textSize="@dimen/option_tv_main_size" />
+
+            <View
+                style="@style/whole_view_line"
+                android:layout_marginTop="@dimen/view_interval_size" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/main_view_margin"
+                android:layout_marginTop="@dimen/view_interval_size"
+                android:layout_marginRight="@dimen/main_view_margin"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rb_task_mode_loop"
+                    style="@style/rb_btn"
+                    android:text="@string/rb_task_mode_loop" />
+
+                <RadioButton
+                    android:id="@+id/rb_task_mode_one_step"
+                    style="@style/rb_btn"
+                    android:layout_marginLeft="@dimen/rb_margin"
+                    android:text="@string/rb_task_mode_one_step" />
+            </RadioGroup>
+
+            <View
+                style="@style/whole_view_line"
+                android:layout_marginTop="@dimen/view_interval_size" />
+
+            <ViewStub
+                android:id="@+id/view_stub"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout="@layout/view_running_loop" />
+
+            <Button
+                android:id="@+id/btn_start_implement"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/btn_over_height"
+                android:layout_marginLeft="@dimen/main_view_margin"
+                android:layout_marginTop="@dimen/dialog_btn_margin_top"
+                android:layout_marginRight="@dimen/main_view_margin"
+                android:layout_marginBottom="@dimen/dialog_btn_margin_bottom"
+                android:background="@drawable/selector_btn_oval_bg"
+                android:text="@string/btn_start_implement"
+                android:textColor="@color/btn_tv"
+                android:textSize="@dimen/btn_size" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,7 @@
+#Sun Jun 28 11:17:29 CST 2020
+base.0=E\:\\github\\robot_slam\\local\\TobotRobot_Slam\\TobotDisinfect\\build\\intermediates\\transforms\\r8\\debug\\0\\classes.dex
+path.1=classes2.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=E\:\\github\\robot_slam\\local\\TobotRobot_Slam\\TobotDisinfect\\build\\intermediates\\transforms\\r8\\debug\\0\\classes2.dex

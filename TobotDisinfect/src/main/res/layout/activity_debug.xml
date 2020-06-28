@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/theme_bg">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        android:paddingTop="@dimen/main_view_margin"
+        android:paddingBottom="@dimen/main_view_margin">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/main_view_margin"
+            android:layout_marginRight="@dimen/main_view_margin"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_option_bg"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/rl_system_setting"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/option_view_with_line_height"
+                    android:background="@drawable/selector_option_top_click_bg"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        style="@style/item_tv_text"
+                        android:text="@string/tv_system_setting" />
+
+                    <ImageView style="@style/item_right_img" />
+
+                    <View style="@style/option_view_line" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rl_software_version"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/option_view_height"
+                    android:background="@drawable/selector_option_bottom_click_bg"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        style="@style/item_tv_text"
+                        android:text="@string/tv_system_software_version" />
+
+                    <ImageView style="@style/item_right_img" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

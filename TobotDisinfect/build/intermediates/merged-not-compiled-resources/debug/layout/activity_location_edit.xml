@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/theme_bg"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <include layout="@layout/view_head" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/et_number"
+                style="@style/et_edit_style"
+                android:hint="@string/et_hint_edit_location_tips"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/et_name_china"
+                style="@style/et_edit_style"
+                android:hint="@string/et_hint_edit_location_china_tips"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/et_name_english"
+                style="@style/et_edit_style"
+                android:hint="@string/et_hint_edit_location_english_tips"
+                android:inputType="textUri|textMultiLine" />
+
+            <Button
+                android:id="@+id/btn_update_location"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/btn_height"
+                android:layout_marginLeft="@dimen/main_view_margin"
+                android:layout_marginTop="@dimen/et_margin_top"
+                android:layout_marginRight="@dimen/main_view_margin"
+                android:background="@drawable/selector_btn_bg"
+                android:gravity="center"
+                android:text="@string/btn_update_location"
+                android:textColor="@color/btn_tv"
+                android:textSize="@dimen/btn_size" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/main_view_margin"
+                android:layout_marginTop="@dimen/et_margin_top"
+                android:layout_marginRight="@dimen/main_view_margin"
+                android:text="@string/name_edit_rule_tips"
+                android:textColor="@color/option_tv_color"
+                android:textSize="@dimen/option_tv_introduce_size" />
+
+            <Button
+                android:id="@+id/btn_confirm"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/btn_height"
+                android:layout_marginLeft="@dimen/main_view_margin"
+                android:layout_marginTop="@dimen/view_margin_top"
+                android:layout_marginRight="@dimen/main_view_margin"
+                android:layout_marginBottom="@dimen/view_margin_bottom"
+                android:background="@drawable/selector_btn_oval_bg"
+                android:text="@string/btn_confirm"
+                android:textColor="@color/btn_tv"
+                android:textSize="@dimen/btn_size" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

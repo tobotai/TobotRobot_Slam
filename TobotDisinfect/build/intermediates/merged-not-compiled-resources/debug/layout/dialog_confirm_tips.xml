@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/shape_dialog_bg"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dialog_title_margin_top">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/tv_tips"
+            android:textColor="@color/dialog_title_tv"
+            android:textSize="@dimen/dialog_title_size" />
+
+        <ImageView
+            android:id="@+id/iv_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/dialog_img_margin"
+            android:src="@drawable/ic_close" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_tips"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dialog_content_margin_left"
+        android:layout_marginTop="@dimen/dialog_content_margin_top"
+        android:layout_marginRight="@dimen/dialog_content_margin_left"
+        android:lineSpacingExtra="@dimen/tv_line_spacing_extra"
+        android:textColor="@color/dialog_content_tv"
+        android:textSize="@dimen/dialog_content_size" />
+
+    <Button
+        android:id="@+id/btn_confirm"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btn_over_height"
+        android:layout_marginLeft="@dimen/dialog_content_margin_left"
+        android:layout_marginTop="@dimen/dialog_btn_margin_top"
+        android:layout_marginRight="@dimen/dialog_content_margin_left"
+        android:layout_marginBottom="@dimen/dialog_btn_margin_bottom"
+        android:background="@drawable/selector_btn_oval_stroke_bg"
+        android:gravity="center"
+        android:text="@string/btn_confirm"
+        android:textColor="@color/dialog_btn_tv"
+        android:textSize="@dimen/dialog_btn_tv_size" />
+</LinearLayout>

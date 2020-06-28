@@ -1,0 +1,80 @@
+apply plugin: 'com.android.application'
+apply from: 'and_res_guard.gradle'
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion "26.0.0"
+
+    defaultConfig {
+        applicationId "com.tobot.disinfect"
+        minSdkVersion 19
+        targetSdkVersion 26
+        versionCode 2
+        versionName "1.2.0"
+        multiDexEnabled true // dex突破65535的限制
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    signingConfigs {
+        // 签名文件
+        debug {
+            storeFile file("keys/tongbu.jks")
+            storePassword "tongbu"
+            keyAlias "tongbu"
+            keyPassword "tongbu"
+        }
+    }
+    lintOptions {
+        disable 'MissingTranslation'
+    }
+    buildTypes {
+        release {
+            buildConfigField "boolean", "LOG_DEBUG", "false"
+            minifyEnabled true // 开启混淆
+            zipAlignEnabled true // 压缩优化
+            shrinkResources true // 移出无用资源
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.debug
+        }
+        debug {
+            buildConfigField "boolean", "LOG_DEBUG", "true"
+            minifyEnabled true // 开启混淆
+            zipAlignEnabled true // 压缩优化
+            shrinkResources true // 移出无用资源
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.debug
+        }
+    }
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+            assets.srcDirs = ['assets', 'src/main/assets', 'src/main/assets/']
+        }
+    }
+    repositories {
+        flatDir {
+            dirs 'libs'
+        }
+    }
+
+    applicationVariants.all { variant ->
+        variant.outputs.all { output ->
+            def APP_NAME = "TobotDisinfect"
+            def createTime = new Date().format("YYYY-MM-dd", TimeZone.getTimeZone("GMT+08:00"))
+            outputFileName = APP_NAME + "_v" + defaultConfig.versionName + "_" + createTime + ".apk"
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.android.support:appcompat-v7:26.0.0-alpha1'
+    compile 'com.android.support:recyclerview-v7:26.0.0-alpha1'
+    testCompile 'junit:junit:4.12'
+    compile project(':TobotAidl')
+    compile project(':TobotCommon')
+    compile(name: 'TobotBar-1.1.2', ext: 'aar')
+    implementation files('libs/TobotSlam-2.5.0.jar')
+}

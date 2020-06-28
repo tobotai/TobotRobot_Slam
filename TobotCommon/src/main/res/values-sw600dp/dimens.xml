@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="base_values">600</integer>
+    <integer name="dialog_width_weight">8</integer>
+    <integer name="dialog_progress_width_weight">3</integer>
+    <dimen name="tv_item_margin_top">10dp</dimen>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/btn_previous_step"
+        style="@style/btn_load"
+        android:text="@string/btn_previous_step" />
+
+    <Button
+        android:id="@+id/btn_next_step"
+        style="@style/btn_load"
+        android:layout_marginLeft="@dimen/btn_load_margin_top"
+        android:text="@string/btn_next_step" />
+</LinearLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="btn_cancel">取消</string>
+    <string name="btn_confirm">确认</string>
+    <string name="btn_delete">删除</string>
+    <string name="tv_tips">温馨提示</string>
+    <string name="delete_success_tips">删除成功…</string>
+    <string name="delete_fail_tips">删除失败…</string>
+    <string name="data_empty_tips">暂无数据</string>
+    <string name="name_empty_tips">名称不能为空，请输入…</string>
+</resources>
