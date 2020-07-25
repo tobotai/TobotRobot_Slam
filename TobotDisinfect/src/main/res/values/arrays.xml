@@ -3,6 +3,7 @@
     <string-array name="set_title">
         <item>任务</item>
         <item>等待点</item>
+        <item>导航速度</item>
         <item>低电量</item>
         <item>导航尝试时间</item>
         <item>地图列表</item>

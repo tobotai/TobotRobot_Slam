@@ -79,7 +79,7 @@ public class SystemFragment extends BaseFragment implements View.OnClickListener
 
     private String getTips(String content) {
         if (TextUtils.isEmpty(content)) {
-            content = getString(R.string.tv_unknown_tips);
+            content = getString(R.string.unknown);
         }
         return content;
     }

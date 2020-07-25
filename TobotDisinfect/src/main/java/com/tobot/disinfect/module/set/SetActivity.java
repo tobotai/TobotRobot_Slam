@@ -42,6 +42,7 @@ public class SetActivity extends BaseTabActivity {
         List<Fragment> fragments = new ArrayList<>();
         fragments.add(TaskFragment.newInstance());
         fragments.add(WaitPointFragment.newInstance());
+        fragments.add(SpeedFragment.newInstance());
         fragments.add(LowBatteryFragment.newInstance());
         fragments.add(TryTimeFragment.newInstance());
         fragments.add(MapListFragment.newInstance());

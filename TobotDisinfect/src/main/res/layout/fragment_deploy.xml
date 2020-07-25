@@ -97,6 +97,15 @@
         android:layout_marginBottom="@dimen/view_margin_top"
         android:visibility="gone" />
 
+    <com.tobot.disinfect.module.deploy.edit.RubberEditView
+        android:id="@+id/view_rubber_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/view_margin_top"
+        android:visibility="gone" />
+
     <com.tobot.disinfect.module.deploy.edit.AddLineView
         android:id="@+id/view_add_line"
         android:layout_width="wrap_content"

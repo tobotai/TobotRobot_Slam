@@ -12,6 +12,8 @@
     <string name="btn_cancel_task">终止\n任务</string>
     <string name="tv_task_point_tips">任务路径\n%1$s</string>
     <string name="tv_task_obstacle_mode_tips">避障模式\n%1$s</string>
+    <string name="tv_task_speed_s_tips">导航速度：%1$sM/S</string>
+    <string name="tv_task_speed_f_tips">导航速度：%.2fM/S</string>
     <string name="rb_task_mode_loop">循环运行</string>
     <string name="rb_task_mode_one_step">单步运行</string>
     <string name="rb_task_implement_by_count">按次数循环</string>
@@ -30,7 +32,6 @@
     <string name="tv_serialize">序列号</string>
     <string name="tv_ip">IP地址</string>
     <string name="tv_mac">Mac地址</string>
-    <string name="tv_unknown_tips">未知</string>
     <string name="tv_system_setting">系统设置</string>
     <string name="tv_system_software_version">应用软件版本</string>
     <string name="tv_try_time_tips">当前尝试时间 %1$d 分钟</string>
@@ -56,6 +57,10 @@
     <string name="tv_add_line">添加</string>
     <string name="tv_remove_line">移除</string>
     <string name="tv_clear_line">清空</string>
+    <string name="tv_wipe_white">擦白</string>
+    <string name="tv_wipe_grey">擦灰</string>
+    <string name="tv_wipe_black">擦黑</string>
+    <string name="tv_wipe_cancel">取消</string>
     <string name="tv_file_catalog">文件目录：%1$s</string>
     <string name="tv_status_show">定位质量[%1$d]，运动状态[%2$s]</string>
     <string name="tv_pose_show">[%1$f,%2$f,%3$f]</string>
@@ -72,6 +77,7 @@
     <string name="tv_build_map">建图</string>
     <string name="tv_virtual_wall">虚拟墙</string>
     <string name="tv_virtual_track">虚拟轨道</string>
+    <string name="tv_rubber">橡皮擦</string>
     <string name="btn_add_current_point">添加当前位置点</string>
     <string name="btn_sort_point">按编号排序</string>
     <string name="btn_edit">编辑</string>
@@ -113,7 +119,7 @@
     <string name="tv_location_delete_tips">确认要删除该位置点吗？</string>
     <string name="tv_clean_map_tips">确认要清除地图吗？</string>
     <string name="point_sort_success">排序成功…</string>
-    <string name="tv_unknown">未知</string>
+    <string name="unknown">未知</string>
     <string name="btn_map_load">加载</string>
     <string name="btn_map_delete">删除</string>
     <string name="tv_bind_now">%1$s（当前地图）</string>
@@ -125,4 +131,7 @@
     <string name="recover_fail_tips">重定位失败</string>
     <string name="init_finish_tips">初始化完成</string>
     <string name="task_no_config_tips">抱歉，暂无配置任务</string>
+    <string name="float_two_format">%.2f</string>
+    <string name="set_success_tips">设置成功…</string>
+    <string name="set_fail_tips">设置失败…</string>
 </resources>

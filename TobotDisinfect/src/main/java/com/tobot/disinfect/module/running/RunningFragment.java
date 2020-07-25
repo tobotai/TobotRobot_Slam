@@ -173,7 +173,7 @@ public class RunningFragment extends AbstractFragment implements View.OnClickLis
     public void updateStatus(int locationQuality, ActionStatus actionStatus) {
         // 避免Fragment not attached to Activity
         if (isResume && isAdded()) {
-            String status = actionStatus != null ? actionStatus.toString() : getString(R.string.tv_unknown);
+            String status = actionStatus != null ? actionStatus.toString() : getString(R.string.unknown);
             tvStatus.setText(getString(R.string.tv_status_show, locationQuality, status));
         }
     }

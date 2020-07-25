@@ -216,6 +216,10 @@ public class DisinfectService extends Service implements ServiceHelper.MapReques
     }
 
     @Override
+    public void onNavigateStartTry() {
+    }
+
+    @Override
     public void onNavigateRemind() {
         LogUtils.i(TAG, "导航提示");
     }

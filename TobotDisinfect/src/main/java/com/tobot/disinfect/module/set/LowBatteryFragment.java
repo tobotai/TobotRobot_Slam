@@ -15,7 +15,7 @@ import com.tobot.disinfect.base.BaseData;
  * @date 2020/5/29
  */
 public class LowBatteryFragment extends BaseFragment implements BaseBar.OnSeekBarChangeListener {
-    private TextView tvBattery;
+    private TextView tvTips;
     private StripSeekBar seekBar;
     private int mBattery;
 
@@ -25,15 +25,15 @@ public class LowBatteryFragment extends BaseFragment implements BaseBar.OnSeekBa
 
     @Override
     protected int getLayoutId() {
-        return R.layout.fragment_low_battery;
+        return R.layout.fragment_seekbar_set;
     }
 
     @Override
     protected void initView(View view) {
-        tvBattery = view.findViewById(R.id.tv_count_tips);
-        seekBar = view.findViewById(R.id.sb_count);
+        tvTips = view.findViewById(R.id.tv_tips);
+        seekBar = view.findViewById(R.id.seek_bar);
         int battery = BaseData.getInstance().getLowBattery(getActivity());
-        tvBattery.setText(getString(R.string.tv_low_battery_tips, battery));
+        tvTips.setText(getString(R.string.tv_low_battery_tips, battery));
         seekBar.setProgress(battery / BaseConstant.LOW_BATTERY_MAX);
         seekBar.setOnSeekBarChangeListener(this);
     }
@@ -44,17 +44,22 @@ public class LowBatteryFragment extends BaseFragment implements BaseBar.OnSeekBa
 
     @Override
     public void onProgressChange(View view, float progress) {
-        mBattery = (int) (progress * BaseConstant.LOW_BATTERY_MAX);
-        // 低电要有最低限制
-        if (mBattery <= BaseConstant.LOW_BATTERY_MIN) {
-            mBattery = BaseConstant.LOW_BATTERY_MIN;
-            seekBar.setProgress(mBattery / BaseConstant.LOW_BATTERY_MAX);
-        }
-        tvBattery.setText(getString(R.string.tv_low_battery_tips, mBattery));
+        setProgress(progress);
     }
 
     @Override
     public void onSeekBarStop(View view, float progress) {
+        setProgress(progress);
         BaseData.getInstance().setLowBattery(getActivity(), mBattery);
+    }
+
+    private void setProgress(float progress) {
+        mBattery = (int) (progress * BaseConstant.LOW_BATTERY_MAX);
+        // 低电要有最低限制
+        if (mBattery < BaseConstant.LOW_BATTERY_MIN) {
+            mBattery = BaseConstant.LOW_BATTERY_MIN;
+            seekBar.setProgress(mBattery / BaseConstant.LOW_BATTERY_MAX);
+        }
+        tvTips.setText(getString(R.string.tv_low_battery_tips, mBattery));
     }
 }

@@ -65,4 +65,12 @@ public class BaseConstant {
      * 最大等待点数量
      */
     public static final int MAX_WAIT_POINT_COUNT = 5;
+    /**
+     * 最大导航速度
+     */
+    public static final float MAX_SPEED = 0.70f;
+    /**
+     * 最小导航速度
+     */
+    public static final float MIN_SPEED = 0.10f;
 }

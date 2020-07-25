@@ -23,6 +23,7 @@ import com.tobot.disinfect.module.deploy.edit.AddLineView;
 import com.tobot.disinfect.module.deploy.edit.EditLineView;
 import com.tobot.disinfect.module.deploy.edit.EditPopupWindow;
 import com.tobot.disinfect.module.deploy.edit.OnEditListener;
+import com.tobot.disinfect.module.deploy.edit.RubberEditView;
 import com.tobot.disinfect.module.deploy.map.AddPointViewDialog;
 import com.tobot.disinfect.module.deploy.map.MapPopupWindow;
 import com.tobot.disinfect.module.main.AbstractFragment;
@@ -30,6 +31,7 @@ import com.tobot.disinfect.module.main.MainHandle;
 import com.tobot.disinfect.module.main.MapHelper;
 import com.tobot.disinfect.module.set.SetActivity;
 import com.tobot.slam.data.LocationBean;
+import com.tobot.slam.data.Rubber;
 import com.tobot.slam.view.MapView;
 
 import java.lang.ref.WeakReference;
@@ -46,6 +48,7 @@ public class DeployFragment extends AbstractFragment implements View.OnClickList
     private LinearLayout llControl;
     private ImageView ivSet;
     private EditLineView editLineView;
+    private RubberEditView rubberEditView;
     private AddLineView addLineView;
     private static final int CODE_SET = 1;
     private MainHandle mMainHandler;
@@ -78,6 +81,7 @@ public class DeployFragment extends AbstractFragment implements View.OnClickList
         ivSet = view.findViewById(R.id.iv_set);
         tvNavigate = view.findViewById(R.id.tv_navigate);
         editLineView = view.findViewById(R.id.view_edit_line);
+        rubberEditView = view.findViewById(R.id.view_rubber_edit);
         addLineView = view.findViewById(R.id.view_add_line);
         tvMap.setOnClickListener(this);
         tvAction.setOnClickListener(this);
@@ -182,18 +186,43 @@ public class DeployFragment extends AbstractFragment implements View.OnClickList
         mEditType = type;
         llControl.setVisibility(View.GONE);
         ivSet.setVisibility(View.GONE);
+        if (type == OnEditListener.TYPE_RUBBER) {
+            rubberEditView.init(this);
+            return;
+        }
         editLineView.init(type, addLineView, this);
     }
 
     @Override
     public void onEditOption(int option) {
         mOption = option;
-        if (option == OnEditListener.OPTION_CLOSE) {
-            removeEditLineView();
-            return;
-        }
-        if (option == OnEditListener.OPTION_CLEAR && mMapClickHandle != null) {
-            mMapClickHandle.clearLines(mEditType);
+        switch (option) {
+            case OnEditListener.OPTION_CLOSE:
+                if (editLineView.getVisibility() == View.VISIBLE) {
+                    removeEditLineView();
+                    return;
+                }
+                removeRubberView();
+                break;
+            case OnEditListener.OPTION_WIPE_WHITE:
+                mapView.setRubberMode(Rubber.RUBBER_WHITE);
+                break;
+            case OnEditListener.OPTION_WIPE_GREY:
+                mapView.setRubberMode(Rubber.RUBBER_GREY);
+                break;
+            case OnEditListener.OPTION_WIPE_BLACK:
+                mapView.setRubberMode(Rubber.RUBBER_BLACK);
+                break;
+            case OnEditListener.OPTION_WIPE_CANCEL:
+                mapView.closeRubber();
+                break;
+            case OnEditListener.OPTION_CLEAR:
+                if (mMapClickHandle != null) {
+                    mMapClickHandle.clearLines(mEditType);
+                }
+                break;
+            default:
+                break;
         }
     }
 
@@ -220,7 +249,7 @@ public class DeployFragment extends AbstractFragment implements View.OnClickList
     public void updateStatus(int locationQuality, ActionStatus actionStatus) {
         // 避免Fragment not attached to Activity
         if (isResume && isAdded()) {
-            String status = actionStatus != null ? actionStatus.toString() : getString(R.string.tv_unknown);
+            String status = actionStatus != null ? actionStatus.toString() : getString(R.string.unknown);
             tvStatus.setText(getString(R.string.tv_status_show, locationQuality, status));
         }
     }
@@ -311,6 +340,10 @@ public class DeployFragment extends AbstractFragment implements View.OnClickList
             removeEditLineView();
             return true;
         }
+        if (rubberEditView.getVisibility() == View.VISIBLE) {
+            removeRubberView();
+            return true;
+        }
         return isClosePopupWindow();
     }
 
@@ -385,6 +418,14 @@ public class DeployFragment extends AbstractFragment implements View.OnClickList
     private void removeEditLineView() {
         mOption = OnEditListener.OPTION_CLOSE;
         editLineView.remove();
+        llControl.setVisibility(View.VISIBLE);
+        ivSet.setVisibility(View.VISIBLE);
+    }
+
+    private void removeRubberView() {
+        mOption = OnEditListener.OPTION_CLOSE;
+        rubberEditView.remove();
+        mapView.closeRubber();
         llControl.setVisibility(View.VISIBLE);
         ivSet.setVisibility(View.VISIBLE);
     }

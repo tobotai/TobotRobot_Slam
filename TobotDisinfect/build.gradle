@@ -75,6 +75,6 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile project(':TobotAidl')
     compile project(':TobotCommon')
-    compile(name: 'TobotBar-1.1.2', ext: 'aar')
-    implementation files('libs/TobotSlam-2.5.0.jar')
+    compile(name: 'TobotBar-1.1.3', ext: 'aar')
+    implementation files('libs/TobotSlam-2.6.0.jar')
 }

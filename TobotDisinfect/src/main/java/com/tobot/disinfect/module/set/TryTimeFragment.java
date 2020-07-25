@@ -15,7 +15,7 @@ import com.tobot.disinfect.base.BaseData;
  * @date 2020/5/29
  */
 public class TryTimeFragment extends BaseFragment implements BaseBar.OnSeekBarChangeListener {
-    private TextView tvTime;
+    private TextView tvTips;
     private int mTime;
 
     public static TryTimeFragment newInstance() {
@@ -24,15 +24,15 @@ public class TryTimeFragment extends BaseFragment implements BaseBar.OnSeekBarCh
 
     @Override
     protected int getLayoutId() {
-        return R.layout.fragment_low_battery;
+        return R.layout.fragment_seekbar_set;
     }
 
     @Override
     protected void initView(View view) {
-        tvTime = view.findViewById(R.id.tv_count_tips);
-        StripSeekBar seekBar = view.findViewById(R.id.sb_count);
+        tvTips = view.findViewById(R.id.tv_tips);
+        StripSeekBar seekBar = view.findViewById(R.id.seek_bar);
         int time = BaseData.getInstance().getTryTime(getActivity());
-        tvTime.setText(getString(R.string.tv_try_time_tips, time));
+        tvTips.setText(getString(R.string.tv_try_time_tips, time));
         seekBar.setProgress(time / BaseConstant.TRY_TIME_MAX);
         seekBar.setOnSeekBarChangeListener(this);
     }
@@ -43,12 +43,17 @@ public class TryTimeFragment extends BaseFragment implements BaseBar.OnSeekBarCh
 
     @Override
     public void onProgressChange(View view, float progress) {
-        mTime = (int) (progress * BaseConstant.TRY_TIME_MAX);
-        tvTime.setText(getString(R.string.tv_try_time_tips, mTime));
+        setProgress(progress);
     }
 
     @Override
     public void onSeekBarStop(View view, float progress) {
+        setProgress(progress);
         BaseData.getInstance().setTryTime(getActivity(), mTime);
+    }
+
+    private void setProgress(float progress) {
+        mTime = (int) (progress * BaseConstant.TRY_TIME_MAX);
+        tvTips.setText(getString(R.string.tv_try_time_tips, mTime));
     }
 }
