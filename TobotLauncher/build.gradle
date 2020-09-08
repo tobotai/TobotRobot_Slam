@@ -1,5 +1,4 @@
 apply plugin: 'com.android.application'
-apply from: 'and_res_guard.gradle'
 
 android {
     compileSdkVersion 26
@@ -13,6 +12,10 @@ android {
         versionName "1.2.0"
         multiDexEnabled true // dex突破65535的限制
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+        ndk {
+            abiFilters "armeabi-v7a"
+        }
     }
     signingConfigs {
         // 签名文件
