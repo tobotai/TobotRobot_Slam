@@ -1,5 +1,5 @@
 # TobotRobot_Slam简介
-本软件是基于[上海瞳步智能科技](http://www.tobotai.com) Slam SDK 的机器人端的应用程序，旨在帮助用户基于slam的快速开发和应用，该应用程序运行在Android-A33平台，如果使用其它Android平台，请替换相应平台的系统签名，否则由于系统权限属性不支持导致不能正常运行，该程序主要包含以下功能。
+本软件是基于TobotAI Slam SDK 的机器人端的应用程序，旨在帮助用户基于slam的快速开发和应用，该应用程序运行在Android-A33平台，如果使用其它Android平台，请替换相应平台的系统签名，否则由于系统权限属性不支持导致不能正常运行，该程序主要包含以下功能。
 
 1、多APP：该程序目前包含有2个app，需要全部安装，否则不能正常运行，多app之间相互通信；  
 2、开机自启动：开机自动启动该程序；  
@@ -22,7 +22,7 @@ SDK使用说明
 ![详情](https://github.com/tobotai/TobotRobot_Slam/blob/master/doc/%E7%9E%B3%E6%AD%A5%E5%BA%95%E7%9B%98%E5%AF%BC%E8%88%AAsdk-2.5.0%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3%E8%AF%B4%E6%98%8E.pdf)  
 
 # 相关链接
-更多产品信息请参考[上海瞳步智能科技](http://www.tobotai.com) 
+更多产品信息请参考[TobotAI](http://www.tobotai.com) 
 
 # 技术支持
 邮箱：support@tobotai.com
